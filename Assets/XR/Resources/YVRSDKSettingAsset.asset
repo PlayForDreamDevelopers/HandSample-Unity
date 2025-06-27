@@ -40,28 +40,6 @@ MonoBehaviour:
   - nodePath: /manifest
     tag: uses-feature
     attrName: name
-    attrValue: yvr.software.quadviews
-    attrs:
-    - required
-    - false
-    required: 0
-  - nodePath: /manifest/application
-    tag: meta-data
-    attrName: name
-    attrValue: com.yvr.ossplash
-    attrs:
-    - value
-    - false
-    required: 1
-  - nodePath: /manifest
-    tag: uses-permission
-    attrName: name
-    attrValue: com.yvr.permission.USE_SCENE
-    attrs: []
-    required: 0
-  - nodePath: /manifest
-    tag: uses-feature
-    attrName: name
     attrValue: android.hardware.vr.headtracking
     attrs:
     - version
@@ -70,11 +48,25 @@ MonoBehaviour:
     - true
     required: 1
   - nodePath: /manifest
+    tag: uses-feature
+    attrName: name
+    attrValue: yvr.software.quadviews
+    attrs:
+    - required
+    - false
+    required: 0
+  - nodePath: /manifest
     tag: uses-permission
     attrName: name
-    attrValue: com.yvr.permission.USE_ANCHOR_API
+    attrValue: com.yvr.permission.USE_SCENE
     attrs: []
     required: 0
+  - nodePath: /manifest/application/activity/intent-filter
+    tag: category
+    attrName: name
+    attrValue: org.khronos.openxr.intent.category.IMMERSIVE_HMD
+    attrs: []
+    required: 1
   - nodePath: /manifest
     tag: uses-permission
     attrName: name
@@ -119,12 +111,6 @@ MonoBehaviour:
     - required
     - false
     required: 0
-  - nodePath: /manifest/application/activity/intent-filter
-    tag: category
-    attrName: name
-    attrValue: org.khronos.openxr.intent.category.IMMERSIVE_HMD
-    attrs: []
-    required: 1
   - nodePath: /manifest
     tag: uses-feature
     attrName: name
@@ -147,5 +133,19 @@ MonoBehaviour:
     - required
     - false
     required: 1
+  - nodePath: /manifest/application
+    tag: meta-data
+    attrName: name
+    attrValue: com.yvr.ossplash
+    attrs:
+    - value
+    - false
+    required: 1
+  - nodePath: /manifest
+    tag: uses-permission
+    attrName: name
+    attrValue: com.yvr.permission.USE_ANCHOR_API
+    attrs: []
+    required: 0
   packingAssetInfoList: []
   toDeletePackingAssetList: []
