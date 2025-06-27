@@ -5444,6 +5444,11 @@ Transform:
   - {fileID: 1985586552}
   m_Father: {fileID: 1434975003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1584765443 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5952547062309322566, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
+  m_PrefabInstance: {fileID: 2041898147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1607142550 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2932259739682790196, guid: cc0d6bd3aca3b5d4a986e27ce112e071, type: 3}
@@ -6968,6 +6973,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!137 &2017421786 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 880002690778925390, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
+  m_PrefabInstance: {fileID: 2041898147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2024359419
 GameObject:
   m_ObjectHideFlags: 0
@@ -7055,14 +7065,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: XROrigin
       objectReference: {fileID: 0}
+    - target: {fileID: 2697056756157583646, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
+      propertyPath: m_MeshRenderer
+      value: 
+      objectReference: {fileID: 1584765443}
     - target: {fileID: 2747814471788830911, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
       propertyPath: m_RequestedTrackingOriginMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3357723978737216192, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
-      propertyPath: trackingManager._trackingSpace
-      value: 2
+      propertyPath: handTrackingSupport
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3357723978737216192, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
+      propertyPath: trackingManager._trackingSpace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667150035114537194, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
+      propertyPath: m_MeshRenderer
+      value: 
+      objectReference: {fileID: 2017421786}
     - target: {fileID: 7025214948584908669, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
