@@ -10,7 +10,7 @@
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>
     <meta-data android:name="com.yvr.application.mode" android:value="vr_only" />
-    <meta-data android:name="yvr.sdk.version" android:value="Unity_core_1.23|Unity_interaction_0.6.28|Unity_utilities_0.15.11" />
+    <meta-data android:name="yvr.sdk.version" android:value="Unity_core_1.28.11|Unity_utilities_0.15.14|Unity_interaction_0.6.28" />
     <meta-data android:name="com.yvr.ossplash" android:value="false" />
   </application>
   <queries>
